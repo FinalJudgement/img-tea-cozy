@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+    font-family: Helvetica;
+
+}
+
+html {
+    background-color: black;
+
+}
+
+h2 {
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.5px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo img {
+    height: 50px;
+    padding: 0 10px;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 375px;
+}
+
+nav li {
+    list-style: none;
+    /* margin: 10px; */
+}
+
+
+
+.banner img {
+    min-width: 1200px;
+    min-height: 700px;
+    object-fit: cover;
+
+}
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    position: relative;
+    left: 265px;
+    bottom: 350px;
+    background-color: black;
+    opacity: 1;
+    position: absolute;
+    width: 1200px;
+}
+
+.banner h2 {
+    font-size: 32px;
+}
+
+#featured-tea {
+    margin: 50px;
+}
+
+.tea-of-month {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
+.tea-of-month h2 {
+    font-size: 32px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+}
+
+.image-row img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 15px;
+}
+
+#locations img {
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 30px;
+}
+
+.psuedo-relative-container {
+    position: absolute;
+}
+
+.location-group {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1680px;
+
+    left: 355px;
+    opacity: 1;
+
+}
+
+.location-group h2 {
+    font-size: 32px;
+}
+
+.location-group h3 {
+    font-size: 24px
+}
+
+.location-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.card ul {
+    margin: 15px 20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    list-style: none;
+}
+
+.card li {
+    padding: 22px 0;
+}
+
+footer {
+    opacity: 0.6;
+}
+
+.contact-info {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.contact-info h2 {
+    font-size: 32px;
+}
+
+#copyright {
+    align-self: flex-start;
+    margin: 30px 0 0 20px;
+}
